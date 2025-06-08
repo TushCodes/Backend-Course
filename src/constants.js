@@ -1,0 +1,1 @@
+export const DB_NAME = "videotube" // this is not system specific var that's why NOT in .env file
