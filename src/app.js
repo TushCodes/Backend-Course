@@ -14,6 +14,16 @@ app.use(express.static('public'));
 app.use(cookieParser());
 
 
+export { app }
+
+
+
+
+
+
+
+
+/*
 app.get('/', (req, res) => {
   res.sendFile(resolve(__dirname, 'pages/index.html'));
 });
@@ -21,3 +31,4 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+*/
