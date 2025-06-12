@@ -1,0 +1,11 @@
+1. pre method
+- how it is running when save is called on user model
+- if password is not modified, exit middleware
+- else, hash the password and store it in instance variable ; and then exit
+- bcryptjs is an async function
+My observation: We call pre method when we wanna modify functionality of a particular mongodb functionality
+2. Creating a methods key in our schema which holds another object with the field - isPasswordCorrect
+- this will take in a function which compares our password with the instantiated password (original password saved)
+- we use bcrypt coz the password is hashed
+
+3. Access and refresh tokens thing
